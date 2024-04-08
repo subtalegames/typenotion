@@ -13,6 +13,8 @@
 
 For example, given the following Notion database:
 
+![Notion example screenshot](https://github.com/subtalegames/typenotion/assets/24438483/51d357cb-69c2-48b5-9a56-bf5b60839dbc)
+
 Running the command:
 
 ```shell
