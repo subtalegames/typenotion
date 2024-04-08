@@ -1,7 +1,7 @@
 # typenotion
 
 [![OSS by Subtale](https://img.shields.io/badge/oss_by-subtale-white?style=flat-square&labelColor=14213D&color=E5E5E5)][oss]
-[![Rust](https://img.shields.io/github/actions/workflow/status/subtalegames/notion-enum-codegen/rust.yml?style=flat-square&labelColor=14213D&color=E5E5E5)][gh-workflow]
+[![Rust](https://img.shields.io/github/actions/workflow/status/subtalegames/typenotion/rust.yml?style=flat-square&labelColor=14213D&color=E5E5E5)][gh-workflow]
 [![MIT License](https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square&labelColor=14213D&color=E5E5E5)][mit]
 [![Apache-2.0 License](https://img.shields.io/badge/license-Apache--2.0-brightgreen?style=flat-square&labelColor=14213D&color=E5E5E5)][apache]
 
