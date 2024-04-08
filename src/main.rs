@@ -198,7 +198,7 @@ fn main() {
     let mut scope = Scope::new();
 
     // Parse enun name from environment variable
-    let generated_enum = scope.new_enum(enum_name.clone().replace(" ", ""));
+    let generated_enum = scope.new_enum(enum_name.clone().replace(' ', ""));
 
     // Add derives to the enum if passed as a comma separated list in the DERIVES
     // environment variable
@@ -246,14 +246,14 @@ fn main() {
 
     if args.generate_display {
         let trait_impl = scope
-            .new_impl(&enum_name.replace(" ", ""))
+            .new_impl(&enum_name.replace(' ', ""))
             .impl_trait("std::fmt::Display");
 
         let fmt_fn = trait_impl.new_fn("fmt");
         fmt_fn.arg_ref_self();
         fmt_fn.arg("f", "&mut std::fmt::Formatter");
         fmt_fn.ret("std::fmt::Result");
-        fmt_fn.line(format!("use {}::*;", enum_name.replace(" ", "")));
+        fmt_fn.line(format!("use {}::*;", enum_name.replace(' ', "")));
         fmt_fn.line("match self {");
         for achievement in achievements.iter() {
             fmt_fn.line(format!(
@@ -277,7 +277,7 @@ fn main() {
     } else {
         let output_file = args
             .output_file
-            .unwrap_or_else(|| format!("{}.rs", enum_name.to_lowercase().replace(" ", "_")));
+            .unwrap_or_else(|| format!("{}.rs", enum_name.to_lowercase().replace(' ', "_")));
         std::fs::write(output_file, file_contents).expect("Failed to write to file");
     }
 }
