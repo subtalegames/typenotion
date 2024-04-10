@@ -1,6 +1,7 @@
 # typenotion
 
 [![OSS by Subtale](https://img.shields.io/badge/oss_by-subtale-white?style=flat-square&labelColor=14213D&color=E5E5E5)][oss]
+[![Chat on Discord](https://img.shields.io/badge/chat_on-discord-white?style=flat-square&labelColor=14213D&color=E5E5E5)][discord]
 [![Rust](https://img.shields.io/github/actions/workflow/status/subtalegames/typenotion/rust.yml?style=flat-square&labelColor=14213D&color=E5E5E5)][gh-workflow]
 [![MIT License](https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square&labelColor=14213D&color=E5E5E5)][mit]
 [![Apache-2.0 License](https://img.shields.io/badge/license-Apache--2.0-brightgreen?style=flat-square&labelColor=14213D&color=E5E5E5)][apache]
@@ -83,7 +84,8 @@ Unless you explicitly state otherwise, any contribution intentionally submitted 
 
 ![Jurassic Park GIF](https://c.tenor.com/6IxQzcFGAkMAAAAC/tenor.gif)
 
-[oss]: https://oss.subtale.com
-[gh-workflow]: https://github.com/subtalegames/mimir/actions/workflows/rust.yml
+[oss]: https://subtale.dev
+[discord]: https://discord.subtale.com
+[gh-workflow]: https://github.com/subtalegames/typenotion/actions/workflows/rust.yml
 [mit]: LICENSE-MIT
 [apache]: LICENSE-APACHE
