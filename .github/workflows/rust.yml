@@ -23,7 +23,7 @@ jobs:
         toolchain: 1.76.0
         components: clippy
     - name: Setup cache
-      uses: actions/cache@v4
+      uses: actions/cache@v6
       continue-on-error: false
       with:
         path: |
